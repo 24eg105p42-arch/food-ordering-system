@@ -1,0 +1,9 @@
+node_modules/
+target/
+.env
+.vscode/
+*.log
+run-log.txt
+food-ordering-systembackend/
+$RECYCLE.BIN/
+System Volume Information/
