@@ -16,7 +16,16 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="brand">🍔 FoodHub</Link>
+      <Link to="/" className="brand">
+        <svg className="logo-mark" width="30" height="30" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <path className="steam steam-1" d="M17 14c-2 3 2 4 0 8" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path className="steam steam-2" d="M24 11c-2 3 2 5 0 9" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path className="steam steam-3" d="M31 14c-2 3 2 4 0 8" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M9 26c0-1.5 1-2.5 2.5-2.5h25c1.5 0 2.5 1 2.5 2.5 0 7-6.5 12.5-15 12.5S9 33 9 26Z" fill="currentColor" />
+          <path d="M9.5 24.5h29" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+        FoodHub
+      </Link>
 
       <div className="nav-links">
         {!user && (
